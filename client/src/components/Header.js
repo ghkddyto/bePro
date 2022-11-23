@@ -4,7 +4,7 @@ import { useNavigate } from 'react-router-dom';
 import SignIn from './SignIn';
 import SignUp from './SignUp';
 import axiosSignOut from '../axios/axiosSignOut';
-import logo from './icons/menuIcon.png';
+import logo from './icons/menu.png';
 
 function Header(){
     const navigate= useNavigate();
