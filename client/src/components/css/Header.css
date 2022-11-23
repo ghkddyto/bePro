@@ -44,6 +44,13 @@ div.contentArea{
     align-items: center;
     margin: 0 -0.25rem;
 }
+.menuIcon_wrap{
+    width: 50px;
+    height:50px;
+}
+.menuIcon{
+    width:100%;
+}
 div.headerTitle{
     font-family: "MapleFontBold";
     font-size:25px;

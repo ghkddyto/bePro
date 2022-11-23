@@ -2,6 +2,8 @@
     display: flex;
     justify-content: space-evenly;
 }
+
+
 .sideBarFrame{
     padding-top: 30px;
     list-style: none;
@@ -23,4 +25,10 @@
 }
 .sideBarContentFrame div{
     margin-bottom: 7px;
+}
+
+@media all and (max-width:900px) {
+    .sideBarFrame{
+        display:none;
+    }
 }

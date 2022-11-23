@@ -4,6 +4,7 @@ import { useNavigate } from 'react-router-dom';
 import SignIn from './SignIn';
 import SignUp from './SignUp';
 import axiosSignOut from '../axios/axiosSignOut';
+import logo from './icons/menuIcon.png';
 
 function Header(){
     const navigate= useNavigate();
@@ -39,6 +40,9 @@ function Header(){
         <div className="area">
             <div className="innerArea">
                 <div className="contentArea">
+                <span className="menuIcon_wrap">
+                    <img src={logo} className='menuIcon' alt='d' />
+                </span>
                 <Link to="/"><div className="headerTitle">be전공자</div></Link>
                     <div className="headerTools">
                         <ul className="headerToolTitle">
